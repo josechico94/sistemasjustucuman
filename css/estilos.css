@@ -1,0 +1,170 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background:url('../img/fondo.jpg') ;*/
+	font-family: "Open Sans",sans-serif;
+	font-size:16px;
+
+}
+
+.contenedor{
+
+	width: 100%;
+	/*max-width: 1000px;*/
+	margin:auto;
+	overflow:hidden;
+
+}
+
+.aparece{
+
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+/* HEADER */
+
+header{
+	background:rgba(31, 97, 141, .6);
+	
+}
+
+header .encabezado {
+	text-align: center;
+	margin-left: 70px;
+}
+header h3 {
+
+	text-align: left;
+	color: #f2f2f2;
+}
+
+.option {
+
+	text-align: center;
+
+}
+.option h3{
+	color: #f2f2f2;
+}
+.option img {
+	 width: 250px ;
+	 text-align: center;
+}
+.option .btn {
+	 width: 300px;
+
+}
+.option .card {
+	background: rgba(251, 252, 252, .5);
+	
+}
+
+.RealidadVirtual {
+
+	display: block; /*para centrar el contenido*/
+	text-align: center;
+	margin:auto;
+	
+}
+
+
+/* TABLERO */
+
+.tablero {
+
+	text-align: center;
+	/*display: block;*/
+	margin: auto;
+
+}
+.tablero .card{
+	background: #1f4e4e;
+	box-shadow: 2px 2px 2px #00fdff;
+}
+
+.tablero h3{
+	color: #00fdff;
+	margin-bottom: 15px;
+}
+
+.tablero .card a:hover {
+	background:#393D43;
+	text-decoration: none;
+}
+
+/* MAIN */
+
+.main .contenedor{
+
+	overflow: visible;
+}
+
+.main .acercade{
+
+	text-align: center;
+
+}
+
+.main .acercade .texto{
+
+	color:#5a5a5a;
+	font-weight:600;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin: 40px auto 60px auto;
+
+}
+
+.main .acercade .texto .titulo{
+
+	font-size: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:#dd820d;
+	text-align: center;
+
+}
+
+
+/* FOOTER */
+
+footer .pie {
+
+	text-align: center;
+	background: rgba(31, 97, 141, .6);
+	width: 100%;
+	height: 100%;
+}
+
+footer .pie h5 {
+	color: #f2f2f2;
+	margin-bottom: 30px;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 400px){
+	header .encabezado {
+	
+		margin-left: 1px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+	header h3 {
+		margin-top: 15px;
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+
+

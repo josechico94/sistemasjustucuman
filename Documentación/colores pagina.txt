@@ -1,0 +1,4 @@
+exa #9B1332 rgba 155, 19, 50 ----> color violeta tirando a bordo.
+exa #6C031B rgba 108, 3, 27  ----> color bordo.
+
+
